@@ -13,7 +13,10 @@ html, body {
   height: 100vh; /* fallback for Js load */
   height: var(--doc-height);
 }
-
+iframe{
+  height: 100% !important;
+  width: 100% !important;
+}
 body {
   overflow-x: hidden;
 }
@@ -253,27 +256,18 @@ nav ul li a {
   justify-content: center;
   width: 100%;
   height: 100vh;
-  /* background-image: url("../images/iktaj.jpg"); */
-  /* background-position: center; */
-  /* background-attachment: fixed; */
-  /* background-size: cover; */
 }
-/* #home::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: #000000a1;
-    z-index: 1;
-} */
+
 #myVideo {
     position: absolute;
     top: 0;
     left: 0;
     min-width: 100%;
     min-height: 100%;
+}
+
+#myVideo source{
+    width: 100%;
 }
 #contact {
   background-image: linear-gradient(#171717, #565656);
@@ -365,6 +359,12 @@ nav ul li a {
     font-size: 2.5rem; 
     margin-top: 8vh;
   }
+
+#myVideo {
+
+  width: 100%;
+  
+}
   .title {
     font-size: 18vw !important;
     }
@@ -376,6 +376,11 @@ nav ul li a {
   }
 }
 
+#myVideo {
+
+  width: 100%;
+  
+}
 @media screen and (max-width: 600px){
   body {
     font-size: 16px;
@@ -425,3 +430,4 @@ nav ul li a {
     font-size: 1rem;  
   }
 }
+
