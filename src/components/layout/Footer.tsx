@@ -43,15 +43,26 @@ export const Footer: React.FC = () => {
         </div>
 
         {/* Right: Back to Top and Copyright */}
-        <div className="flex items-center gap-4">
-          <span className="text-xs text-white/40 font-mono">
-            &copy; {new Date().getFullYear()} {PERSONAL_INFO.shortName}
-          </span>
+        <div className="flex items-center gap-4 text-center md:text-right">
+          <div className="text-xs font-mono text-white/40 space-y-1">
+            <div>&copy; {new Date().getFullYear()} {PERSONAL_INFO.shortName}</div>
+            <div className="text-[11px] text-white/50">
+              Developed by{' '}
+              <a
+                href="https://www.facebook.com/md.mohiuddin.944305/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#00f2fe] hover:text-[#da0037] hover:underline font-medium transition-colors"
+              >
+                Md Mohiuddin
+              </a>
+            </div>
+          </div>
 
           <button
             onClick={scrollToTop}
             data-cursor="TOP"
-            className="p-2.5 rounded-full glass-panel border border-white/10 hover:border-[#da0037] text-white/60 hover:text-white transition-colors"
+            className="p-2.5 rounded-full glass-panel border border-white/10 hover:border-[#da0037] text-white/60 hover:text-white transition-colors shrink-0"
             aria-label="Back to top"
           >
             <ArrowUp className="w-4 h-4" />
