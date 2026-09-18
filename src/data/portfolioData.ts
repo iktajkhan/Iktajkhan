@@ -67,15 +67,19 @@ export const PERSONAL_INFO = {
     aboutPortrait: "/assets/images/About_me.JPG",
     robiPortrait: "/assets/images/robiIktaj.png",
     robiSummit: "/assets/images/robi.png",
+    robi1: "/assets/images/robi1.png",
+    robi2: "/assets/images/robi2.png",
+    robi3: "/assets/images/robi3.png",
+    robi4: "/assets/images/robi4.png",
     favicon: "/assets/images/IK.png",
     bannerVideo: "/assets/video/banner.mp4"
   }
 };
 
 export const IMPACT_METRICS = [
-  { value: "02", label: "Apex Summits & Roles", detail: "Robi Axiata & Young Apex Summit 2026" },
+  { value: "01", label: "Young Talent Award", detail: "Robi Axiata Q1 2026 Northern Cluster" },
+  { value: "03+", label: "Summits & Cluster Meets", detail: "Young Apex Summit 2026 & Northern Cluster Meets" },
   { value: "300+", label: "Students Trained", detail: "Mirpur Ideal Girls' Laboratory Workshop" },
-  { value: "01", label: "Partner Crest Award", detail: "IIUPE 2024 International Gala Night" },
   { value: "06", label: "Global & Enterprise Brands", detail: "Robi Axiata, Nike, Creative IT, bKash, Instant Job Hub, CSR Axis" }
 ];
 
@@ -149,6 +153,54 @@ export const PROJECTS: ProjectItem[] = [
 ];
 
 export const CAREER_MILESTONES: MilestoneItem[] = [
+  {
+    id: "milestone-robi-young-talent",
+    date: { day: "Q1", month: "Award", year: "2026" },
+    title: "Young Talent Award (Northern Cluster)",
+    organization: "Robi Axiata Limited • Rangpur Region",
+    description: "Awarded the coveted Robi 'Young Talent Award' crest for outstanding commercial agility, territory retail network growth, and high-velocity execution across the Northern Cluster.",
+    image: "/assets/images/robi2.png",
+    highlightTag: "Young Talent Award",
+    category: "Robi Axiata",
+    tags: ["Young Talent Award", "Robi Star Crest", "Northern Cluster", "Rangpur Region", "Territory Officer"],
+    featured: true
+  },
+  {
+    id: "milestone-robi-cluster-meet",
+    date: { day: "Q2", month: "Summit", year: "2026" },
+    title: "Cluster Meet Q2'26 Stage Celebration",
+    organization: "Northern Cluster • Robi Axiata Limited",
+    description: "Celebrated on the red carpet stage at the high-velocity Cluster Meet Q2'26 alongside regional cluster champions and top sales management, marking milestones in territory subscriber growth and digital services.",
+    image: "/assets/images/robi3.png",
+    highlightTag: "Cluster Meet Q2'26",
+    category: "Robi Axiata",
+    tags: ["Cluster Meet Q2'26", "Red Carpet Stage", "Sales Leadership", "Commercial Milestones"],
+    featured: true
+  },
+  {
+    id: "milestone-robi-warriors-stage",
+    date: { day: "Stage", month: "Honor", year: "2026" },
+    title: "Northern Warriors Stage Recognition & Leadership Crest",
+    organization: "Robi Axiata Limited",
+    description: "Recognized on the grand stage with executive leadership as an honored member of Northern Warriors for exemplary on-ground dedication, commercial agility, and distribution excellence.",
+    image: "/assets/images/robi1.png",
+    highlightTag: "Northern Warriors",
+    category: "Robi Axiata",
+    tags: ["Northern Warriors", "Stage Recognition", "Leadership Crest", "Territory Agility"],
+    featured: true
+  },
+  {
+    id: "milestone-robi-cluster-team",
+    date: { day: "Cluster", month: "Grand Meet", year: "2026" },
+    title: "Northern Cluster Grand Team Meet & Operations Convocation",
+    organization: "Robi Axiata Limited",
+    description: "Gathered with the entire regional operations force, cluster territory officers, and commercial directors at the Robi Northern Cluster Grand Meet, representing unified commercial momentum and collective excellence.",
+    image: "/assets/images/robi4.png",
+    highlightTag: "Northern Cluster Meet",
+    category: "Robi Axiata",
+    tags: ["Northern Cluster", "Grand Team Meet", "Territory Officers", "Commercial Force"],
+    featured: true
+  },
   {
     id: "milestone-robi-summit",
     date: { day: "Young Apex", month: "Summit", year: "2026" },
